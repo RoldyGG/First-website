@@ -15,3 +15,69 @@ Here you can take this short survey on cats, I'd love to know what some of your 
 <a href="link to top of page">
 page 1
 --------------------------------------------------------------------------------
+
+#Navigation bar
+|Cats|         |Info|          |Before Adopoting|          |Survey|
+|-----------------------------------------------------------------|
+<h1>Cat quiz!</h1>
+<img>                   Image of cat                        </img>
+<fieldset>
+
+<h2>Are you a cat owner?<h2>
+(Radio Buttons)
+[ ]Yes [ ]No [ ]I don't like cats [ ]Thinking about adopting
+
+<label for="breed">Favorite Breed?</label>
+<input type="text" id="catbreed" name="breed">
+
+<label for="coat">Favorite coat type?</label>
+<input type="text" id="coattype" name="coat">
+
+<h2>What is your favorite thing about cats?</h2>
+<input type="checkbox" id="favbeh" name="purr" value="behavior">
+<label for="purr">They way they purr</label>
+<input type="checkbox" id="favbeh1" name="tail" value="behavior">
+<label for="tail">Their cute tail</label>
+<input type="checkbox" id="favbeh2" name="beans" value="behavior">
+<label for="beans">Their cute toe beans</label>
+<input type="checkbox" id="favbeh3" name="tough" value="behavior">
+<label for="tough">I like how tough they are</label>
+<input type="checkbox" id="favbeh4" name="soft" value="behavior">
+<label for="soft">I like how soft they are</label>
+<input type="checkbox" id="favbeh5" name="allof" value="behavior">
+<label for="alloff">All of the above really</label>
+
+<h2>Got any intersting cat related stories? Please share!</h2>
+<                     Text Area                              >
+
+
+
+<input type="checkbox" id="newsletter" name="subscribe" value="newsletter" />
+<label for="newsletter">Sign up for cat newsletter?</label>
+
+               [submit] [reset]
+
+<a href="link to top of page">
+page 2
+------------------------------------------------------------------------------
+
+#Navigation bar
+|Cats|         |Info|          |Before Adopoting|          |Survey|
+|-----------------------------------------------------------------|
+<img>                       image of more cats               </img>
+<h1>Everything to know about cats 🐈</h1>
+
+|<h2>Important things to know about cats:</h2>|<h2>Other cool information:</h2>|
+<li>                         |                <li>
+    <ul>link 1</ul>           |                     <ul>link 1</ul>
+    <ul>link 2</ul>           |                     <ul>link 2</ul>
+    <ul>link 3</ul>           |                     <ul>link 2</ul>
+    <ul>link 4</ul>           |                     <ul>link 2</ul>
+    <ul>link 5</ul>           |                     <ul>link 2</ul>
+                              |
+</li>                                        </li>
+--------------------------------------------------------------------------------
+
+<a href="link to top of page">
+page 3
+--------------------------------------------------------------------------------
