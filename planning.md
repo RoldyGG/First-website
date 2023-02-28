@@ -81,3 +81,40 @@ page 2
 <a href="link to top of page">
 page 3
 --------------------------------------------------------------------------------
+
+#Navigation bar
+|Cats|         |Info|          |Before Adopoting|          |Survey|
+|-----------------------------------------------------------------|
+<img>                  image of more cats   3w2d(links to source)          </img> [label]
+
+<h1>Before Adopting, make sure to consider these very important things</h1>
+
+<img>                  image of more cats   3w2d(links to source)          </img> [label]
+
+<h2>Cats are not ideal for all, but for most<h2>
+<p>Make sure you really consider your decision if you are thinking of getting a cat, they are a family member, thereforem, a LIFETIME companion</p>
+
+<img>                  image of more cats   3w2d(links to source)          </img> [label]
+
+<h2>If well cared for, cats can even be as loving (if not more so) than dogs!</h2>
+<p>Most people see cats portrayed in media as this mean spirited animal that just wants to destroy your belongings and claw off your skin but that is very far from the truth! Quite the opposite, being social animals cats like forming deep and meaningful bonds with their owners!</p>
+
+<img>                  image of more cats   3w2d(links to source)          </img> [label]
+
+<h2>Excellent pest control (sometimes too good! 😮)</h2>
+<p>Cats can be excellent pest control for those that hate dealing with creepy crawlies around the house. Cats are always on the alert and on the hunt, looking to take out any target that happens to invade its territory. Sounds great right? It is pretty great if you keep an indoor cat, but one thing to be wary of is that not only is keeping an outdoor cat more of a risk for the cat's well being, it also causes a risk for the local ecology. Cats are such effective hunters that outdoor cats have been known to overhunt and sometimes eradicate smaller species in their area!</p>
+
+<img>                  image of more cats   3w2d(links to source)          </img> [label]
+
+<h2>Great hunter, but even greater goofball!</h2>
+<p>One of if not the best thing about cats is the amount of entertainment you can get by just observing them. They are one of natures biggest and fluffiest goofballs, and when they aren't focused on the hunt or begging for a treat, chances are they are up to some chickanery!</p>
+
+
+<img>                  image of more cats   3w2d(links to source)          </img> [label]
+
+<h2>In conclusion, cats are AWESOME!</h2>
+<p>Now that we've gone over all the info, we can't deny the fact that these little critters are something amazing, no matter what breed or age, they will always be one of humanity's most cherished friends</p>
+
+<a href="link to top of page">
+page 4
+--------------------------------------------------------------------------------
