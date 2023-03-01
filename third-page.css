@@ -1,0 +1,10 @@
+.navibar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    border-top: 4px solid #B983FF;
+    border-bottom: 4px solid #B983FF;
+    background-color: #99FEFF;
+    box-shadow: inset 1px 1px 1px #94B3FD, inset 0 0 1em #99FEFF, inset 0 0 0.2em #B983FF;
+}
