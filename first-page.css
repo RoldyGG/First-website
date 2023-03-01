@@ -57,6 +57,11 @@ h1:hover {
     border-radius: 8px;
     font-family: Sawarabi Mincho, sans-serif;
     background-color: #B7D3DF;
+
+}
+.container:hover {
+        box-shadow: 2px 2px 6px #345ada, 0 0 2em #58e9ee, 0 0 0.6em #a78cd1;
+        transition: 1s ease-in, 3s transform ease-out 1s ;
 }
 
 .navibar {
@@ -106,7 +111,7 @@ h1:hover {
 }
 .bodytext:hover{
     box-shadow: 1px 1px 2px #345ada, 0 0 1em #58e9ee, 0 0 0.2em #a78cd1;
-    transition: 1s;
+    transition: 1s ease-in;
 }
 #ferocious{
     font-size: 20px;
