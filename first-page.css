@@ -1,5 +1,10 @@
+body {
+    background-color: rgb(241, 241, 241);
+}
+
 .kittyheader {
     display: flex;
+    width: 100%;
 }
 .kittyheader2 {
     display: flex;
@@ -10,7 +15,7 @@
 
 h1 {
     background-color: #D6EFED;
-    margin-top: 4px;
+    margin-top: 10px;
     margin-left: 33%;
     margin-right: 33%;
     border: 4px solid #898AA6;
@@ -19,6 +24,7 @@ h1 {
     font-size: 30px;
     color: #898AA6;
     text-shadow: 1px 1px 2px #345ada, 0 0 1em #58e9ee, 0 0 0.2em #a78cd1;
+    box-shadow: 1px 1px 2px #345ada, 0 0 1em #58e9ee, 0 0 0.2em #a78cd1;
 }
 #sillyguy {
     display: flex;
@@ -58,6 +64,7 @@ h1 {
     border-bottom: 4px solid #898AA6;
     background-color: #C9BBCF;
     color: #fff;
+    box-shadow: inset 1px 1px 1px #a4b9ff, inset 0 0 1em #bcf5f7, inset 0 0 0.2em #a78cd1;
 
 }
 #home, #info, #adopt, #survey {
@@ -65,10 +72,29 @@ h1 {
         color: #898AA6;
         font-family:Sawarabi Mincho, sans-serif;
         border: none;
+        margin-top: 15px;
+        margin-bottom: 15px;
         font-size: 20px;
-        padding-top:12px;
-        padding-bottom:12px;
-        padding-right: 25px;
-        padding-left: 10px;
+        border-radius: 5px;
+        padding-right: 2px;
+        text-shadow: 1px 1px 2px #345ada, 0 0 1em #ffffff, 0 0 0.2em #a78cd1;
         cursor: pointer;
+}
+#home:active, #info:active, #adopt:active, #survey:active {
+    transform: scale(0.9);
+    transition-duration: .3s;
+}
+
+
+.bodytext{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 10%;
+    padding-right:10%;
+}
+#ferocious{
+    font-size: 30px;
+    font-family: Rock Salt, sans-serif ;
+    border: 2px solid #898AA6;
 }
