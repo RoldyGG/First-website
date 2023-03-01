@@ -20,6 +20,12 @@ body {
     background-color: #B7D3DF;
     text-align: center;
 }
+.container:hover {
+    box-shadow: 2px 2px 6px #345ada, 0 0 2em #58e9ee, 0 0 0.6em #a78cd1;
+    transition: 1s ease-in;
+}
+
+
 .navibar {
     display: flex;
     flex-direction: row;
@@ -77,4 +83,72 @@ h1 {
     margin-right: 40%;
     background-color: aliceblue;
     border-radius: 10px;
+    font-size: 40px;
+    color: #94B3FD;
+    text-shadow: 1px 1px 2px #345ada, 0 0 1em #58e9ee, 0 0 0.2em #a78cd1;
+    box-shadow: 1px 1px 2px #345ada, 0 0 1em #58e9ee, 0 0 0.2em #a78cd1;
+}
+h2 {
+    text-align: center;
+    color: #94B3FD;
+    text-shadow: 1px 1px 2px #345ada, 0 0 1em #58e9ee, 0 0 0.4em #a78cd1;
+    text-decoration: underline;
+}
+
+
+
+fieldset {
+    background-color: aliceblue;
+    box-shadow: inset 1px 1px 1px #a4b9ff, inset 0 0 1em #bcf5f7, inset 0 0 0.2em #a78cd1;
+    font-size: 20px;
+}
+fieldset:hover {
+    box-shadow: 2px 2px 6px #345ada, 0 0 2em #58e9ee, 0 0 0.6em #a78cd1;
+    transition: 1s ease-in;
+}
+
+#tryit {
+    text-align: start;
+    padding: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 3px solid #94B3FD;
+    background-color: aliceblue;
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px #345ada, 0 0 1em #58e9ee, 0 0 0.2em #a78cd1;
+    box-shadow: 1px 1px 2px #345ada, 0 0 1em #58e9ee, 0 0 0.2em #a78cd1;
+}
+
+.favorites {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.breedcoat {
+    display:flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top:10px;
+    margin-bottom:15px;
+}
+
+.story {
+    display:flex;
+    flex-direction: column;
+
+
+}
+
+textarea {
+    align-self: center;
+    width: 400px;
+    height: 200px;
+}
+
+#cuteguy {
+    border-radius: 10px;
+    margin-bottom: 20px;
 }

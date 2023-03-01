@@ -21,12 +21,12 @@
 
     <div class="surveyhead">
     <img src="https://eadn-wc01-7638205.nxedge.io/wp-content/themes/wags/images2/blog-banner.jpg" id="research" alt="thumb-1920-859504" border="0">
-    <h1>Kitty Survey!</h1>
+    <h1>Kitty Survey</h1>
     </div>
 
     <form action="/form-handling-url" method="post">
         <fieldset>
-            <legend>Try our cat survey!</legend>
+            <legend><h2 id="tryit">Try our cat survey!</h2></legend>
 
             <div class="radiocat">
                 <h2>First things first, are you a cat owner?</h2>
@@ -61,32 +61,39 @@
 
                     <input type="checkbox" id="favbeh4" name="soft" value="behavior">
                     <label for="soft">I like how soft they are</label>
+                    </div>
 
-                    <input type="checkbox" id="favbeh5" name="allof" value="behavior">
-                    <label for="alloff">All of the above really</label>
-                    <br>
-                    <label for="breed">Favorite Breed?</label>
+            <div class="breedcoat">
+                    <label for="breed">Favorite Cat Breed?</label>
                     <input type="text" id="catbreed" name="breed">
 
                     <label for="coat">Favorite coat type?</label>
                     <input type="text" id="coattype" name="coat">
+
+                    <label for="fiction">Favorite fictional cat?</label>
+                    <input type="text" id="fictional" name="fiction">
+
+                    <label for="road">Do you think cats can see ghosts? Why?</label>
+                    <input type="text" id="ghost" name="road">
             </div>
 
             <div class="story">
 
                 <h2>Got any intersting cat related stories? Please share!</h2>
-                <label for="user-comments">Share your cat tale:</label>
+                <label for="user-comments">Share your cat tale :</label>
                 <textarea name="comments" id="user-comments">
                 </textarea>
                 <br>
 
-                <img src="https://i.ibb.co/58Vvc9k/Newton-writing-sm.jpg" alt="Newton-writing-sm" border="0">
+                <img src="https://www.peta.org/wp-content/uploads/2020/05/cat-on-couch-750x260.jpg" id="cuteguy" alt="Newton-writing-sm" border="0">
 
             </div>
 
             <div class="button">
                 <input type="checkbox" id="newsletter" name="subscribe" value="newsletter"/>
                 <label for="newsletter">Sign up for cat newsletter</label>
+                <input type="checkbox" id="newsletter2" name="subscribe2" value="newsletter2"/>
+                <label for="newsletter2">Sign up for human newsletter</label>
 
                 <h2>Ready to submit your survey?</h2>
                 <p>😺 Hit the "submit" button below when you've filled out your survey, or hit the reset button if you want to start over 😸</p>
