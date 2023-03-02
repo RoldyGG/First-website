@@ -144,3 +144,13 @@ div.infobox h2{
 ul {
     margin-top: 0;
 }
+
+.bottomimg {
+    margin-right: 0;
+    margin-bottom: 0;
+}
+#nyan {
+    max-height: 150px;
+
+
+}
