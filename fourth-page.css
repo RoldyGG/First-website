@@ -53,6 +53,7 @@ label {
     color: #316B83;
     text-shadow: 2px 2px 2px #94b3fd, 0 0 1em #ffffff, 0 0 0.4em #D5BFBF;
     font-size: 30px;
+    text-decoration: underline;
   }
 
 p {
@@ -71,6 +72,10 @@ p {
       inset 1px 1px 2px #316B83, 0 0 1em #8CA1A5, 0 0 0.2em #D5BFBF;
     color: #316B83;
     text-shadow: 1px 1px 1px #316B83, 0 0 1em #8CA1A5, 0 0 0.8em #D5BFBF;
+}
+p:hover {
+    box-shadow: 2px 2px 2px #316B83, 0 0 1em #ffffff, 0 0 0.4em #D5BFBF;
+    transition: .3s ease-in;
 }
 
   .navibar {
@@ -148,13 +153,16 @@ div.midpage h2, div.midpage p, #kitty1, #kitty2, #kitty3, #kitty4, #kitty5, #kit
     display: grid;
     grid-column-start: 1;
     grid-column-end: 4;
-
+}
+#kitty1, #kitty2, #kitty3, #kitty4, #kitty5, #kitty6 {
+    border:1px solid #316B83;
+    border-radius: 9px;
+    box-shadow: 1px 1px 2px #316B83, 0 0 10px .1em #ffffff, 0 0 0.4em #D5BFBF;
 }
 #kitty1 {
     grid-row-start: 1;
     grid-row-end: 3;
     border:1px solid #316B83;
-
 }
 #kitty2{
     grid-row-start: 5;
@@ -175,4 +183,17 @@ div.midpage h2, div.midpage p, #kitty1, #kitty2, #kitty3, #kitty4, #kitty5, #kit
 #kitty6{
     grid-row-start: 20;
     grid-row-end: 22;
+}
+
+#k1, #k2, #k3, #k4, #k5, #k6 {
+    border-radius: 8px;
+}
+#kitty1:active,
+#kitty2:active,
+#kitty3:active,
+#kitty4:active,
+#kitty5:active,
+#kitty6:active {
+  transform: scale(0.9);
+  transition-duration: 0.3s;
 }
