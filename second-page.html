@@ -1,115 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kitty Survey</title>
+    <title>Kitty Survey
+    </title>
     <link rel="stylesheet" href="second-page.css" type="text/css">
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="kittyheader">
-            <img src="https://www.freewebheaders.com/wp-content/gallery/cats/cats-header-20734-800x200.jpg" id="notes" alt="writingcat">
-        </div>
-    <nav class="navibar">
+      <div class="kittyheader">
+        <img src="https://www.freewebheaders.com/wp-content/gallery/cats/cats-header-20734-800x200.jpg" id="notes" alt="writingcat">
+      </div>
+      <nav class="navibar">
         <input type="button" id="home" onclick="window.location.href = 'file:///C:/Users/Harold/Desktop/AA-projects/First-website/first-page.html';" value="Main" />
         <input type="button" id="info" onclick="window.location.href = 'file:///C:/Users/Harold/Desktop/AA-projects/First-website/third-page.html';" value="Info" />
         <input type="button" id="adopt" onclick="window.location.href = 'file:///C:/Users/Harold/Desktop/AA-projects/First-website/fourth-page.html';" value="Before Adopting" />
         <input type="button" id="survey" onclick="window.location.href = 'file:///C:/Users/Harold/Desktop/AA-projects/First-website/second-page.html';" value="Survey" />
-    </nav>
-
-    <div class="surveyhead">
-    <img src="https://eadn-wc01-7638205.nxedge.io/wp-content/themes/wags/images2/blog-banner.jpg" id="research" alt="thumb-1920-859504" border="0">
-    <h1>Kitty Survey</h1>
-    </div>
-
-    <form action="/form-handling-url" method="post">
+      </nav>
+      <div class="surveyhead">
+        <img src="https://eadn-wc01-7638205.nxedge.io/wp-content/themes/wags/images2/blog-banner.jpg" id="research" alt="thumb-1920-859504" border="0">
+        <h1>Kitty Survey
+        </h1>
+      </div>
+      <form action="/form-handling-url" method="post">
         <fieldset>
-            <legend><h2 id="tryit">Try our cat survey!</h2></legend>
-
-            <div class="radiocat">
-                <h2>First things first, are you a cat owner?</h2>
-                <br>
-                <input type="radio" id="catowner1" name="owner" value="ofcourse" checked/>
-                <label for="catowner1">Yes 😸</label>
-
-                <input type="radio" id="catowner2" name="owner" value="negative"/>
-                <label for="catowner2">No 🙀</label>
-
-                <input type="radio" id="catowner3" name="owner" value="nolike"/>
-                <label for="catowner3">I don't like cats 😿</label>
-
-                <input type="radio" id="catowner4" name="owner" value="thinking"/>
-                <label for="catowner4">Thinking about adopting 😻</label>
-            </div>
-
-            <div class="favorites">
-                <h2>What is your favorite thing about cats?</h2>
-
-                    <input type="checkbox" id="favbeh" name="purr" value="behavior">
-                    <label for="purr">They way they purr</label>
-
-                    <input type="checkbox" id="favbeh1" name="tail" value="behavior">
-                    <label for="tail">Their cute tail</label>
-
-                    <input type="checkbox" id="favbeh2" name="beans" value="behavior">
-                    <label for="beans">Their cute toe beans</label>
-
-                    <input type="checkbox" id="favbeh3" name="tough" value="behavior">
-                    <label for="tough">I like how tough they are</label>
-
-                    <input type="checkbox" id="favbeh4" name="soft" value="behavior">
-                    <label for="soft">I like how soft they are</label>
-                    </div>
-
-            <div class="breedcoat">
-                    <label for="breed">Favorite Cat Breed?</label>
-                    <input type="text" id="catbreed" name="breed">
-
-                    <label for="coat">Favorite coat type?</label>
-                    <input type="text" id="coattype" name="coat">
-
-                    <label for="fiction">Favorite fictional cat?</label>
-                    <input type="text" id="fictional" name="fiction">
-
-                    <label for="road">Why can cats see ghosts?</label>
-                    <input type="text" id="ghost" name="road">
-            </div>
-
-            <div class="story">
-
-                <h2>Got any intersting cat related stories? Please share!</h2>
-                <label for="user-comments">Share your cat tale :</label>
-                <textarea name="comments" id="user-comments">
-                </textarea>
-                <br>
-
-                <img src="https://www.peta.org/wp-content/uploads/2020/05/cat-on-couch-750x260.jpg" id="cuteguy" alt="Newton-writing-sm" border="0">
-
-            </div>
-
-            <div class="button">
-                <input type="checkbox" id="newsletter" name="subscribe" value="newsletter"/>
-                <label for="newsletter">Sign up for cat newsletter</label>
-                <input type="checkbox" id="newsletter2" name="subscribe2" value="newsletter2"/>
-                <label for="newsletter2">Sign up for human newsletter</label>
-
-                <h2>Ready to submit your survey?</h2>
-                <p>😺 Hit the "submit" button below when you've filled out your survey, or hit the reset button if you want to start over 😸</p>
-                <br>
-                <button type="submit" id="sub">Submit</button>
-                <button type="reset" id="reset-button">Reset</button>
-            </div>
-
-
-
+          <legend>
+            <h2 id="tryit">Try our cat survey!
+            </h2>
+          </legend>
+          <div class="radiocat">
+            <h2>First things first, are you a cat owner?
+            </h2>
+            <br>
+            <input type="radio" id="catowner1" name="owner" value="ofcourse" checked/>
+            <label for="catowner1">Yes 😸
+            </label>
+            <input type="radio" id="catowner2" name="owner" value="negative"/>
+            <label for="catowner2">No 🙀
+            </label>
+            <input type="radio" id="catowner3" name="owner" value="nolike"/>
+            <label for="catowner3">I don't like cats 😿
+            </label>
+            <input type="radio" id="catowner4" name="owner" value="thinking"/>
+            <label for="catowner4">Thinking about adopting 😻
+            </label>
+          </div>
+          <div class="favorites">
+            <h2>What is your favorite thing about cats?
+            </h2>
+            <input type="checkbox" id="favbeh" name="purr" value="behavior">
+            <label for="purr">They way they purr
+            </label>
+            <input type="checkbox" id="favbeh1" name="tail" value="behavior">
+            <label for="tail">Their cute tail
+            </label>
+            <input type="checkbox" id="favbeh2" name="beans" value="behavior">
+            <label for="beans">Their cute toe beans
+            </label>
+            <input type="checkbox" id="favbeh3" name="tough" value="behavior">
+            <label for="tough">I like how tough they are
+            </label>
+            <input type="checkbox" id="favbeh4" name="soft" value="behavior">
+            <label for="soft">I like how soft they are
+            </label>
+          </div>
+          <div class="breedcoat">
+            <label for="breed">Favorite Cat Breed?
+            </label>
+            <input type="text" id="catbreed" name="breed">
+            <label for="coat">Favorite coat type?
+            </label>
+            <input type="text" id="coattype" name="coat">
+            <label for="fiction">Favorite fictional cat?
+            </label>
+            <input type="text" id="fictional" name="fiction">
+            <label for="road">Why can cats see ghosts?
+            </label>
+            <input type="text" id="ghost" name="road">
+          </div>
+          <div class="story">
+            <h2>Got any intersting cat related stories? Please share!
+            </h2>
+            <label for="user-comments">Share your cat tale :
+            </label>
+            <textarea name="comments" id="user-comments">
+            </textarea>
+            <br>
+            <img src="https://www.peta.org/wp-content/uploads/2020/05/cat-on-couch-750x260.jpg" id="cuteguy" alt="Newton-writing-sm" border="0">
+          </div>
+          <div class="button">
+            <input type="checkbox" id="newsletter" name="subscribe" value="newsletter"/>
+            <label for="newsletter">Sign up for cat newsletter
+            </label>
+            <input type="checkbox" id="newsletter2" name="subscribe2" value="newsletter2"/>
+            <label for="newsletter2">Sign up for human newsletter
+            </label>
+            <h2>Ready to submit your survey?
+            </h2>
+            <p>😺 Hit the "submit" button below when you've filled out your survey, or hit the reset button if you want to start over 😸
+            </p>
+            <br>
+            <button type="submit" id="sub">Submit
+            </button>
+            <button type="reset" id="reset-button">Reset
+            </button>
+          </div>
         </fieldset>
-
         <div class="bottomlink">
-            <a href="#home">Back to Top</a>
+          <a href="#home">Back to Top
+          </a>
         </div>
-    </form>
-</div>
-</body>
+      </form>
+    </div>
+  </body>
 </html>
